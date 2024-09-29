@@ -69,7 +69,7 @@ Antes de iniciar, certifique-se de que você tem:
    
 ## Como Usar a Aplicação
    Para adicionar um novo registro, faça uma requisição POST para o endpoint da função:
-      ```bash
+     ```bash
    http://localhost:5001/<PROJECT_ID>/us-central1/createNewRecord
    
    - Método: POST
