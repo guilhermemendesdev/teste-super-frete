@@ -42,7 +42,7 @@ Antes de iniciar, certifique-se de que você tem:
 
 - Clone o repositório:
     ```bash
-    git clone https://github.com/seu-usuario/super-frete.git
+    git clone https://github.com/guilhermemendesdev/teste-super-frete.git
 
 - Navegue até o diretório do projeto:
    ```bash
