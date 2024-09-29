@@ -13,6 +13,7 @@ Super Frete é uma aplicação que utiliza Firebase Functions e Firestore para g
   - [Configuração do Firebase](#configuração-do-firebase)
   - [Como Iniciar](#como-iniciar)
   - [Como Usar a Aplicação](#como-usar-a-aplicação)
+  - [Testes Automatizados](#testes-automatizados)
 
 ## Funcionalidades
 
@@ -78,3 +79,6 @@ Antes de iniciar, certifique-se de que você tem:
   "name": "Nome do Registro"
    }
 
+## Testes Automatizados
+
+O projeto inclui testes automatizados utilizando Jest. Para executar os testes, navegue até o diretório **functions** e execute:
