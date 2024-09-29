@@ -15,6 +15,8 @@ Super Frete é uma aplicação que utiliza Firebase Functions e Firestore para g
   - [Como Usar a Aplicação](#como-usar-a-aplicação)
   - [Testes Automatizados](#testes-automatizados)
   - [Estrutura do Código](#estrutura-do-código)
+  - [Contribuições](#contribuições)
+  - [Licença](#licença)
 
 ## Funcionalidades
 
@@ -88,9 +90,21 @@ Antes de iniciar, certifique-se de que você tem:
 ## Estrutura do Código
 **index.js**
 
-O arquivo ```index.js ``` contém a definição da função ```createNewRecord ```, que:
+O arquivo ```index.js``` contém a definição da função ```createNewRecord```, que:
 
 - Verifica se a requisição é do tipo POST.
-- Obtém o próximo ```increment_id ``` disponível.
+- Obtém o próximo ```increment_id``` disponível.
 - Adiciona um novo registro ao Firestore.
 - Retorna o ID do registro criado e os dados.
+
+**getNextIncrementId**
+
+A função ```getNextIncrementId``` é responsável por obter o próximo ```increment_id``` da coleção ```records```.
+
+## Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
+
+## Licença
+
+Este projeto é licenciado sob a MIT License - veja o arquivo LICENSE para detalhes.
