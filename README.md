@@ -72,6 +72,9 @@ Antes de iniciar, certifique-se de que você tem:
 
    - URL:
 
+     ```bash
+   firebase emulators:start
+
       ```bash
    http://localhost:5001/<PROJECT_ID>/us-central1/createNewRecord
    
