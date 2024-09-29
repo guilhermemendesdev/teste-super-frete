@@ -87,7 +87,8 @@ Antes de iniciar, certifique-se de que você tem:
 
 ## Estrutura do Código
 **index.js**
-O arquivo **index.js** contém a definição da função **createNewRecord**, que:
+
+O arquivo ```bash index.js ``` contém a definição da função ```bash createNewRecord ```, que:
 
 - Verifica se a requisição é do tipo POST.
 - Obtém o próximo ```bash increment_id ``` disponível.
