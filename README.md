@@ -88,9 +88,9 @@ Antes de iniciar, certifique-se de que você tem:
 ## Estrutura do Código
 **index.js**
 
-O arquivo ```bash index.js ``` contém a definição da função ```bash createNewRecord ```, que:
+O arquivo ```index.js ``` contém a definição da função ```createNewRecord ```, que:
 
 - Verifica se a requisição é do tipo POST.
-- Obtém o próximo ```bash increment_id ``` disponível.
+- Obtém o próximo ```increment_id ``` disponível.
 - Adiciona um novo registro ao Firestore.
 - Retorna o ID do registro criado e os dados.
