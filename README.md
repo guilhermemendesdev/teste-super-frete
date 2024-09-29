@@ -11,6 +11,7 @@ Super Frete é uma aplicação que utiliza Firebase Functions e Firestore para g
   - [Pré-requisitos](#pré-requisitos)
   - [Como Baixar o Projeto](#como-baixar-o-projeto)
   - [Configuração do Firebase](#configuração-do-firebase)
+  - [Como Iniciar](#como-iniciar)
   - [Como Usar a Aplicação](#como-usar-a-aplicação)
 
 ## Funcionalidades
@@ -58,7 +59,15 @@ Antes de iniciar, certifique-se de que você tem:
 
      ```bash
    firebase emulators:start
+
+## Como Iniciar
+
+- Após configurar o Firebase, inicie os emuladores:
+
+     ```bash
+   firebase emulators:start
+   
 ## Como Usar a Aplicação
-   Para adicionar um novo registro, faça uma requisição POST para o endpoint da função:
+- Para adicionar um novo registro, faça uma requisição POST para o endpoint da função:
      ```bash
    http://localhost:5001/<PROJECT_ID>/us-central1/createNewRecord
