@@ -82,6 +82,5 @@ Antes de iniciar, certifique-se de que você tem:
 ## Testes Automatizados
 
 O projeto inclui testes automatizados utilizando Jest. Para executar os testes, navegue até o diretório **functions** e execute:
-
      ```bash
    npm run test
