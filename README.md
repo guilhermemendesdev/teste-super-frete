@@ -1,10 +1,10 @@
-# Super Frete
+# Teste Super Frete
 
-Super Frete é uma aplicação que utiliza Firebase Functions e Firestore para gerenciar registros de transporte. Este projeto é uma demonstração de como criar uma função HTTP que permite a criação de registros, garantindo que cada registro tenha um `increment_id` exclusivo.
+Teste Super Frete é uma aplicação que utiliza Firebase Functions e Firestore para gerenciar registros de transporte. Este projeto é uma demonstração de como criar uma função HTTP que permite a criação de registros, garantindo que cada registro tenha um `increment_id` exclusivo.
 
 ## Índice
 
-- [Super Frete](#super-frete)
+- [Teste Super Frete](#teste-super-frete)
   - [Índice](#índice)
   - [Funcionalidades](#funcionalidades)
   - [Estrutura do Projeto](#estrutura-do-projeto)
@@ -26,7 +26,7 @@ Super Frete é uma aplicação que utiliza Firebase Functions e Firestore para g
 
 ## Estrutura do Projeto
 
-super-frete/ ├── functions/ │ ├── package.json │ ├── index.js │ └── tests/ │ └── index.test.js ├── firebase.json └── README.md
+teste-super-frete/ ├── functions/ │ ├── package.json │ ├── index.js │ └── tests/ │ └── index.test.js ├── firebase.json └── README.md
 
 
 ## Pré-requisitos
