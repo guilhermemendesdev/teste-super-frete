@@ -51,8 +51,7 @@ Antes de iniciar, certifique-se de que você tem:
 ## Instalação das Dependências
 
 Execute o seguinte comando para instalar as dependências do projeto:
-
-     ```bash
+   ```bash
    npm install
 
 ## Configuração do Firebase
