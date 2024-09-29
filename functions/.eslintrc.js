@@ -3,16 +3,13 @@ module.exports = {
     browser: true,
     es2021: true,
     node: true,
-    jest: true, // Adicione esta linha
+    jest: true, 
   },
   extends: [
     "eslint:recommended",
-    "plugin:jest/recommended", // Adicione esta linha
+    "plugin:jest/recommended",
   ],
   parserOptions: {
     ecmaVersion: 12,
-  },
-  rules: {
-    // Adicione suas regras personalizadas aqui
   },
 };

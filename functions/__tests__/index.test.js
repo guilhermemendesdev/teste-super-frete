@@ -1,4 +1,4 @@
-const { createNewRecord } = require('../index'); // Ajuste o caminho conforme necessário
+const { createNewRecord } = require('../index');
 
 test('createNewRecord should return 201 and created record', async () => {
     const req = {
@@ -16,8 +16,8 @@ test('createNewRecord should return 201 and created record', async () => {
 
     expect(res.status).toHaveBeenCalledWith(201);
     expect(res.json).toHaveBeenCalledWith({
-        id: expect.any(String), // Espera um ID gerado automaticamente
+        id: expect.any(String), // Expect an automatically generated ID
         name: 'Test',
-        increment_id: expect.any(Number) // Verifica se o increment_id é um número
+        increment_id: expect.any(Number) // Checks if the increment_id is a number
     });
 });
