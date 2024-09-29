@@ -11,6 +11,7 @@ Super Frete é uma aplicação que utiliza Firebase Functions e Firestore para g
   - [Pré-requisitos](#pré-requisitos)
   - [Como Baixar o Projeto](#como-baixar-o-projeto)
   - [Configuração do Firebase](#configuração-do-firebase)
+  - [Instalação das Dependências](#instalação-das-dependências)
   - [Como Iniciar](#como-iniciar)
   - [Como Usar a Aplicação](#como-usar-a-aplicação)
 
@@ -59,6 +60,12 @@ Antes de iniciar, certifique-se de que você tem:
 
      ```bash
    firebase emulators:start
+
+## Instalação das Dependências
+
+Execute o seguinte comando para instalar as dependências do projeto:
+   ``bash
+   npm install
 
 ## Como Iniciar
 
