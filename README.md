@@ -56,7 +56,7 @@ Antes de iniciar, certifique-se de que você tem:
 
 Execute o seguinte comando para instalar as dependências do projeto:
 
-     ```npm install```
+     npm install
 
 ## Configuração do Firebase
 - Crie um projeto no Firebase Console.
