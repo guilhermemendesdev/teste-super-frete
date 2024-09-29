@@ -14,6 +14,7 @@ Super Frete é uma aplicação que utiliza Firebase Functions e Firestore para g
   - [Como Iniciar](#como-iniciar)
   - [Como Usar a Aplicação](#como-usar-a-aplicação)
   - [Testes Automatizados](#testes-automatizados)
+  - [Estrutura do Código](#estrutura-do-código)
 
 ## Funcionalidades
 
@@ -83,3 +84,12 @@ Antes de iniciar, certifique-se de que você tem:
 - O projeto inclui testes automatizados utilizando Jest. Para executar os testes, navegue até o diretório **functions** e execute:
      ```bash
    npm run test
+
+## Estrutura do Código
+**index.js**
+O arquivo **index.js** contém a definição da função **createNewRecord**, que:
+
+- Verifica se a requisição é do tipo POST.
+- Obtém o próximo ```bash increment_id ``` disponível.
+- Adiciona um novo registro ao Firestore.
+- Retorna o ID do registro criado e os dados.
