@@ -55,7 +55,6 @@ Execute o seguinte comando para instalar as dependências do projeto:
    npm install
 
 ## Configuração do Firebase
-
 - Crie um projeto no Firebase Console.
 - Ative o Firestore no console do Firebase.
 - Configure as credenciais do seu projeto localmente. Você pode usar o comando abaixo para autenticar sua conta Firebase:
