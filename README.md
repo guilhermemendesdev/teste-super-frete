@@ -46,7 +46,7 @@ Antes de iniciar, certifique-se de que você tem:
 
 - Navegue até o diretório do projeto:
    ```bash
-   cd super-frete
+   cd teste-super-frete
 
 - Navegue até o diretório functions:
      ```bash
